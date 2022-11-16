@@ -1,0 +1,3 @@
+com\epa\epadiplom\service\ServletInitializer.class
+com\epa\epadiplom\service\EpadiplomApplication.class
+com\epa\epadiplom\config\MyApplicationContextConfiguration.class
