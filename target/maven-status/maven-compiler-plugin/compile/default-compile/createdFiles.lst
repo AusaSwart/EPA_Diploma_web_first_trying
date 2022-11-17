@@ -1,3 +1,9 @@
-com\epa\epadiplom\service\ServletInitializer.class
 com\epa\epadiplom\service\EpadiplomApplication.class
+com\epa\epadiplom\config\SpringConfig.class
+com\epa\epadiplom\DAO\UserDAO.class
+com\epa\epadiplom\controller\UserController.class
+com\epa\epadiplom\App.class
+com\epa\epadiplom\service\ServletInitializer.class
+com\epa\epadiplom\service\TestBean.class
+com\epa\epadiplom\service\UserService.class
 com\epa\epadiplom\config\MyApplicationContextConfiguration.class
