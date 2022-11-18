@@ -21,6 +21,7 @@
           <file>file://$MODULE_DIR$/src/main/java/com/epa/epadiplom/config/MyApplicationContextConfiguration.java</file>
           <file>file://$MODULE_DIR$/src/main/java/com/epa/epadiplom/service/EpadiplomApplication.java</file>
           <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/web.xml</file>
+          <file>file://$MODULE_DIR$/src/main/java/com/epa/epadiplom/config/WebConfig.java</file>
         </fileset>
         <fileset id="fileset2" name="SpringConfig" removed="false">
           <file>file://$MODULE_DIR$/src/main/java/com/epa/epadiplom/config/SpringConfig.java</file>
@@ -108,5 +109,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:5.3.23" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.xmlunit:xmlunit-core:2.9.0" level="project" />
     <orderEntry type="library" name="Maven: org.freemarker:freemarker:2.3.31" level="project" />
+    <orderEntry type="library" name="Maven: javax.servlet:javax.servlet-api:4.0.1" level="project" />
   </component>
 </module>

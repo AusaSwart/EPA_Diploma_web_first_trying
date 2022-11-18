@@ -10,56 +10,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ac86bbc-6aff-4636-b151-18021b1b7cdb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_4_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_22_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_4_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/config/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/config/WebAppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/service/TestBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/epadiplom_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/epadiplom_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/epadiplom.iml" beforeDir="false" afterPath="$PROJECT_DIR$/epadiplom.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/config/MyApplicationContextConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/config/MyApplicationContextConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epa/epadiplom/config/MyApplicationContextConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epa/epadiplom/service/EpadiplomApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epa/epadiplom/service/EpadiplomApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epa/epadiplom/service/ServletInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epa/epadiplom/service/ServletInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/config/WebAppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/config/WebAppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/service/EpadiplomApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/service/EpadiplomApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/service/ServletInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/service/TestBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/service/TestBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epa/epadiplom/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epa/epadiplom/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epa/epadiplom/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epa/epadiplom/service/EpadiplomApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epa/epadiplom/service/ServletInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epa/epadiplom/service/TestBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epa/epadiplom/service/TestBean.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT.war.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT.war.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT/WEB-INF/classes/com/epa/epadiplom/config/MyApplicationContextConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT/WEB-INF/classes/com/epa/epadiplom/service/EpadiplomApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT/WEB-INF/classes/com/epa/epadiplom/service/EpadiplomApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT/WEB-INF/classes/com/epa/epadiplom/service/ServletInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT/WEB-INF/classes/com/epa/epadiplom/service/ServletInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT/WEB-INF/classes/com/epa/epadiplom/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT/WEB-INF/classes/com/epa/epadiplom/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT/WEB-INF/classes/com/epa/epadiplom/service/EpadiplomApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT/WEB-INF/classes/com/epa/epadiplom/service/ServletInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT/WEB-INF/classes/com/epa/epadiplom/service/TestBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT/WEB-INF/classes/com/epa/epadiplom/service/TestBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,8 +48,8 @@
         <option value="Interface" />
         <option value="Tag Library Descriptor" />
         <option value="spring-beans.schema" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -115,7 +91,7 @@
     "last_opened_file_path": "E:/Intel_Idea/epadiplom",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "spring",
-    "spring.configuration.checksum": "7a51a40b0933e0ac03675db26791ca34"
+    "spring.configuration.checksum": "db2e9fc1ea640224622f4145251c97ff"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -123,6 +99,12 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Intel_Idea\epadiplom\src\main" />
+      <recent name="E:\Intel_Idea\epadiplom\src\main\java" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -144,13 +126,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EpadiplomApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="epadiplom" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.epa.epadiplom.service.EpadiplomApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EpadiplomApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
       <module name="epadiplom" />
@@ -164,12 +139,13 @@
       <deployment>
         <artifact name="epadiplom:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/epadiplom_war" />
+            <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="95c24335-8b20-49cc-b2b0-c5cece3504c3" />
+        <option name="HTTP_PORT" value="8080" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -249,7 +225,6 @@
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="Spring Boot.EpadiplomApplication" />
-      <item itemvalue="Spring Boot.EpadiplomApplication (1)" />
       <item itemvalue="Tomcat Server.Tomcat" />
     </list>
     <recent_temporary>
@@ -259,9 +234,6 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SpringGeneralSettings">
-    <option name="allowAutoConfigurationMode" value="true" />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0ac86bbc-6aff-4636-b151-18021b1b7cdb" name="Changes" comment="" />
@@ -278,7 +250,8 @@
       <workItem from="1668582993523" duration="4086000" />
       <workItem from="1668592678279" duration="589000" />
       <workItem from="1668593297044" duration="6761000" />
-      <workItem from="1668685497015" duration="1704000" />
+      <workItem from="1668685497015" duration="6862000" />
+      <workItem from="1668752583669" duration="3948000" />
     </task>
     <servers />
   </component>
