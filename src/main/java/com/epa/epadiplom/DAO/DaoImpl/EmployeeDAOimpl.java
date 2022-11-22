@@ -1,198 +1,62 @@
-//package com.epa.epadiplom.DAO.DaoImpl;
-//
-//import com.epa.epadiplom.DAO.Dao.*;
-//import com.epa.epadiplom.entities.*;
-//import org.springframework.beans.factory.annotation.Autowired;
-//import org.springframework.jdbc.core.JdbcTemplate;
-//import org.springframework.stereotype.Repository;
-//
-//import java.sql.Connection;
-//import java.sql.PreparedStatement;
-//import java.sql.ResultSet;
-//import java.sql.SQLException;
-//import java.util.ArrayList;
-//import java.util.List;
-//
-//@Repository
-//public class EmployeeDAOimpl implements EmployeeDAO {
-//
-//    @Autowired
-//    public JdbcTemplate jdbcTemplate;
-//
-//    public EmployeeDAO(Connection connection) {
-//        super(connection);
-//    }
-//
-//    private static final String GET_ONE = "SELECT id, privilege, id_dep " +
-//            "FROM employee WHERE id=?";
-//    private static final String GET_ONE_BY_ONE = "SELECT * FROM employee ORDER BY id";
-//    private static final String DELETE = "DELETE FROM employee WHERE id = ?";
-//    private static final String UPDATE = "UPDATE employee SET privilege = ?, " +
-//            "id_dep = ? WHERE id = ?";
-//    private static final String INSERT = "INSERT INTO employee (privilege, id_dep)" +
-//            "VALUES (?, ?)";
-//    private static final String GET_LAST_VALUE = "SELECT MAX(id) FROM employee";
-//    private static final String GET_BY_DEP = "SELECT id FROM employee WHERE id_dep = ?";
-//    private static final String GET_BY_PRIV = "SELECT id FROM employee WHERE privilege = ?";
-//    private static final String GET_ID = "SELECT id FROM employee ORDER BY id";
-//
-//    public List<Long> findIdList() {
-//        List<Long> employeeIDs = new ArrayList<>();
-//        try (PreparedStatement statement = this.connection.prepareStatement(GET_ID);) {
-//            ResultSet rs = statement.executeQuery();
-//            while (rs.next()) {
-//                Employee employee = new Employee();
-//                employee.setId(rs.getLong("id"));
-//                employeeIDs.add(employee.getId());
-//            }
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//            throw new RuntimeException(e);
-//        }
-//        return employeeIDs;
-//    }
-//
-//    public List<Long> findIdByPriv(int priv) {
-//        List<Long> employeeIDs = new ArrayList<>();
-//        try (PreparedStatement statement = this.connection.prepareStatement(GET_BY_PRIV);) {
-//            statement.setLong(1, priv);
-//            ResultSet rs = statement.executeQuery();
-//            while (rs.next()) {
-//                Employee employee = new Employee();
-//                employee.setId(rs.getLong("id"));
-//                employeeIDs.add(employee.getId());
-//            }
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//            throw new RuntimeException(e);
-//        }
-//        return employeeIDs;
-//    }
-//
-//    public List<Long> findIDByDep(long idDep) {
-//        List<Long> employeeIDs = new ArrayList<>();
-//        try (PreparedStatement statement = this.connection.prepareStatement(GET_BY_DEP);) {
-//            statement.setLong(1, idDep);
-//            ResultSet rs = statement.executeQuery();
-//            while (rs.next()) {
-//                Employee employee = new Employee();
-//                employee.setId(rs.getLong("id"));
-//                employeeIDs.add(employee.getId());
-//            }
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//            throw new RuntimeException(e);
-//        }
-//        return employeeIDs;
-//    }
-//
-//    public Employee findMaxIdEmp(Employee employee) {
-//        try (PreparedStatement statement = this.connection.prepareStatement(GET_LAST_VALUE);) {
-//            ResultSet rs = statement.executeQuery();
-//            while (rs.next()) {
-//                employee.setId(rs.getLong("max"));
-//            }
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//            throw new RuntimeException(e);
-//        }
-//        return employee;
-//    }
-//
-//    public List<Employee> findAllInList() {
-//        List<Employee> employees = new ArrayList<>();
-//        try (PreparedStatement statement = this.connection.prepareStatement(GET_ONE_BY_ONE);) {
-//            ResultSet rs = statement.executeQuery();
-//            while (rs.next()) {
-//                Employee employee = new Employee();
-//                employee.setId(rs.getLong("id"));
-//                employee.setPrivilege(rs.getInt("privilege"));
-//                employee.setIdDep(rs.getLong("id_dep"));
-//                employees.add(employee);
-//            }
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//            throw new RuntimeException(e);
-//        }
-//        return employees;
-//    }
-//
-//    public Employee findById(long id) {
-//        Employee employee = new Employee();
-//        try (PreparedStatement statement = this.connection.prepareStatement(GET_ONE);) {
-//            statement.setLong(1, id);
-//            ResultSet rs = statement.executeQuery();
-//            while (rs.next()) {
-//                employee.setId(rs.getLong("id"));
-//                employee.setPrivilege(rs.getInt("privilege"));
-//                employee.setIdDep(rs.getLong("id_dep"));
-//            }
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//            throw new RuntimeException(e);
-//        }
-//        return employee;
-//    }
-//
-//    public List<Employee> findAll() {
-//        return null;
-//    }
-//
-//    public Employee update(Employee dto) {
-//        Employee employee = null;
-//        try {
-//            this.connection.setAutoCommit(false);
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//            throw new RuntimeException(e);
-//        }
-//        try (PreparedStatement statement = this.connection.prepareStatement(UPDATE);) {
-//            statement.setInt(1, dto.getPrivilege());
-//            statement.setLong(2, dto.getIdDep());
-//            statement.setLong(3, dto.getId());
-//            statement.execute();
-//            this.connection.commit();
-//            employee = this.findById(dto.getId());
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//            throw new RuntimeException(e);
-//        }
-//        return employee;
-//    }
-//
-//    public Employee create(Employee dto) {
-//        Employee employee = null;
-//        try (PreparedStatement statement = this.connection.prepareStatement(INSERT);) {
-//            statement.setInt(1, dto.getPrivilege());
-//            statement.setLong(2, dto.getIdDep());
-//            statement.execute();
-//            this.connection.commit();
-//            employee = this.findById(dto.getId());
-//
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//            throw new RuntimeException(e);
-//        }
-//        return employee;
-//    }
-//
-//    public void delete(long id) {
-//        try {
-//            this.connection.setAutoCommit(false);
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//            throw new RuntimeException(e);
-//        }
-//        try (PreparedStatement statement = this.connection.prepareStatement(DELETE);) {
-//            statement.setLong(1, id);
-//            statement.executeUpdate();
-//            this.connection.commit();
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//            throw new RuntimeException(e);
-//        }
-//    }
-//
+package com.epa.epadiplom.DAO.DaoImpl;
+
+import com.epa.epadiplom.DAO.Dao.*;
+import com.epa.epadiplom.entities.*;
+import com.epa.epadiplom.mapper.EmployeeMapper;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+
+@Repository
+public class EmployeeDAOimpl implements EmployeeDAO {
+
+    public final JdbcTemplate jdbcTemplate;
+
+    private static final String GET_ONE = "SELECT id, privilege, id_dep " +
+            "FROM employee WHERE id=?";
+    private static final String GET_ONE_BY_ONE = "SELECT * FROM employee ORDER BY id";
+    private static final String DELETE = "DELETE FROM employee WHERE id = ?";
+    private static final String UPDATE = "UPDATE employee SET privilege = ?, " +
+            "id_dep = ? WHERE id = ?";
+    private static final String INSERT = "INSERT INTO employee (privilege, id_dep)" +
+            "VALUES (?, ?)";
+    private static final String GET_LAST_VALUE = "SELECT MAX(id) FROM employee";
+    private static final String GET_BY_DEP = "SELECT id FROM employee WHERE id_dep = ?";
+    private static final String GET_BY_PRIV = "SELECT id FROM employee WHERE privilege = ?";
+    private static final String GET_ID = "SELECT id FROM employee ORDER BY id";
+
+    public EmployeeDAOimpl(JdbcTemplate jdbcTemplate) {
+        this.jdbcTemplate = jdbcTemplate;
+    }
+    public List<Employee> findIdList() {
+        return jdbcTemplate.query(GET_ID, new EmployeeMapper());
+    }
+    public List<Employee> findIdByPriv(int priv) {
+        return jdbcTemplate.query(GET_BY_PRIV, new EmployeeMapper(), priv);
+    }
+    public List<Employee> findIDByDep(long idDep) {
+        return jdbcTemplate.query(GET_BY_DEP, new EmployeeMapper(), idDep);
+    }
+    public Employee findMaxIdEmp(Employee employee) {
+        return jdbcTemplate.queryForObject(GET_LAST_VALUE, new EmployeeMapper());
+    }
+    public List<Employee> findAllInList() {
+        return jdbcTemplate.query(GET_ONE_BY_ONE, new EmployeeMapper());
+    }
+    public Employee findById(long id) {
+        return jdbcTemplate.queryForObject(GET_ONE, new EmployeeMapper(), id);
+    }
+    public void update(Employee employee) {
+        jdbcTemplate.update(UPDATE, employee.getPrivilege(), employee.getIdDep(), employee.getId());
+    }
+    public void create(Employee employee) {
+        jdbcTemplate.update(INSERT, employee.getPrivilege(), employee.getIdDep());
+    }
+    public void delete(long id) {
+        jdbcTemplate.update(DELETE, id);
+    }
+
 //    public void infoOfEmployee (long idEMPLOYEE, Connection c,int privilege) {
 //        System.out.println("|-----------------------------------------------------|");
 //        System.out.println();
@@ -237,4 +101,4 @@
 //            System.out.println();
 //        }
 //    }
-//}
+}

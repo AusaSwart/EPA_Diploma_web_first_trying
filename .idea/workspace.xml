@@ -10,14 +10,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ac86bbc-6aff-4636-b151-18021b1b7cdb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/epadiplom_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/epadiplom_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/UserDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/config/MyApplicationContextConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/config/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epa/epadiplom/DAO/UserDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT/WEB-INF/classes/com/epa/epadiplom/DAO/UserDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/epadiplom.iml" beforeDir="false" afterPath="$PROJECT_DIR$/epadiplom.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/Dao/DepartmentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/Dao/DepartmentDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/Dao/DocumentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/Dao/DocumentDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/Dao/EmployeeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/Dao/EmployeeDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/Dao/EmployeeTaskDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/Dao/EmployeeTaskDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/Dao/EventDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/Dao/EventDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/Dao/JobEmployeeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/Dao/JobEmployeeDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/Dao/JobTitleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/Dao/JobTitleDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/Dao/LogStatementDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/Dao/LogStatementDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/Dao/LoginDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/Dao/LoginDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/Dao/MainInfoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/Dao/MainInfoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/Dao/NoticeEventDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/Dao/NoticeEventDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/Dao/TaskDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/Dao/TaskDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/DaoImpl/DepartmentDAOimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/DaoImpl/DepartmentDAOimpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/DaoImpl/DocumentDAOimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/DaoImpl/DocumentDAOimpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/DaoImpl/EmployeeDAOimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/DaoImpl/EmployeeDAOimpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/DaoImpl/EmployeeTaskDAOimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/DaoImpl/EmployeeTaskDAOimpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/DaoImpl/EventDAOimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/DaoImpl/EventDAOimpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/DaoImpl/JobEmployeeDAOimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/DaoImpl/JobEmployeeDAOimpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/DaoImpl/JobTitleDAOimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/DaoImpl/JobTitleDAOimpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/DaoImpl/LogStatementDAOimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/DaoImpl/LogStatementDAOimpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/DaoImpl/LoginDAOimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/DaoImpl/LoginDAOimpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/DaoImpl/MainInfoDAOimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/DaoImpl/MainInfoDAOimpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/DaoImpl/NoticeEventDAOimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/DaoImpl/NoticeEventDAOimpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/DaoImpl/TaskDAOimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/DaoImpl/TaskDAOimpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/Document.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/Document.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/EmployeeTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/EmployeeTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/JobEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/JobEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/JobTitle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/JobTitle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/LogStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/LogStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/MainInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/MainInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/NoticeEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/NoticeEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/mapper/DepartmentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/mapper/DepartmentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/mapper/DocumentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/mapper/DocumentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/service/TestBean.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,24 +103,24 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Intel_Idea/epadiplom/src/main/java/com/epa/epadiplom/mapper",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "spring",
-    "spring.configuration.checksum": "db2e9fc1ea640224622f4145251c97ff"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Intel_Idea/epadiplom/src/main/java/com/epa/epadiplom/mapper&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;spring&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;db2e9fc1ea640224622f4145251c97ff&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Intel_Idea\epadiplom\src\main\java\com\epa\epadiplom\mapper" />
@@ -242,7 +277,9 @@
       <workItem from="1668593297044" duration="6761000" />
       <workItem from="1668685497015" duration="6862000" />
       <workItem from="1668752583669" duration="6705000" />
-      <workItem from="1669013445996" duration="14302000" />
+      <workItem from="1669013445996" duration="14361000" />
+      <workItem from="1669098422555" duration="20165000" />
+      <workItem from="1669122134684" duration="1214000" />
     </task>
     <servers />
   </component>

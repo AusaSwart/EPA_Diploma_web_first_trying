@@ -6,9 +6,9 @@ import java.util.List;
 
 public interface DocumentDAO {
 
-    public Document findById(long id);
-    public List<Document> findAll();
-    public Document update(Document dto);
-    public Document create(Document dto);
-    public void delete(long id);
+    Document findById(long id);
+    List<Document> findAll();
+    void update(Document dto);
+    void create(Document dto);
+    void delete(long id);
 }

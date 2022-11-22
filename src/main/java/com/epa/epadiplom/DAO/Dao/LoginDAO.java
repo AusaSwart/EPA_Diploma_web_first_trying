@@ -4,12 +4,11 @@ import com.epa.epadiplom.entities.Login;
 
 import java.util.List;
 public interface LoginDAO {
-
-    public Login findById(long id);
-    public Login checkPassLog(String loginUser, String passwordUser);
-    public Login checkLogin(String loginUser);
-    public List<Login> findAll();
-    public Login update(Login dto);
-    public Login create(Login dto);
-    public void delete(long id);
+    Login findById(long id);
+    Login checkPassLog(String loginUser, String passwordUser);
+    Login checkLogin(String loginUser);
+    List<Login> findAll();
+    void update(Login login);
+    void create(Login login);
+    void delete(long id);
 }

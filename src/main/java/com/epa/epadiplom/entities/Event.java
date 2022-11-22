@@ -11,20 +11,16 @@ public class Event {
     public long getId() {
         return id;
     }
-
     public void setId(long id) {
         this.id = id;
     }
-
-    public String getTypeOfEvent() {return type_of_event;}
+    public Object getTypeOfEvent() {return type_of_event;}
     public void setTypeOfEvent(String type_of_event) {
         this.type_of_event = type_of_event;
     }
-
-    public String getCommentFE() {return comment_fe;}
+    public Object getCommentFE() {return comment_fe;}
     public void setCommentFE(String comment_fe) { this.comment_fe = comment_fe; }
-
-    public Date getDateOfEvent() {
+    public Object getDateOfEvent() {
         return date_of_event;
     }
     public void setDateOfEvent(Date date_of_event) {

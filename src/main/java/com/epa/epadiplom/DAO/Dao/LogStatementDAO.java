@@ -6,13 +6,13 @@ import java.util.List;
 
 public interface LogStatementDAO {
 
-    public LogStatement findComplicatedReqLS(long id);
-    public LogStatement getIDLS( java.sql.Date date, long idEMPLOYEE);
-    public LogStatement findByIdForApprove(long id_approver);
-    public LogStatement findById(long id_approver);
-    public LogStatement updateApprove(LogStatement dto);
-    public List<LogStatement> findAll();
-    public LogStatement update(LogStatement dto);
-    public LogStatement create(LogStatement dto);
-    public void delete(long id);
+    List<LogStatement> findComplicatedReqLS(long id);
+    LogStatement getIDLS( java.sql.Date date, long idEMPLOYEE);
+    List<LogStatement> findByIdForApprove(long id_approver);
+    LogStatement findById(long id_approver);
+    void updateApprove(LogStatement logStatement);
+    List<LogStatement> findAll();
+    void update(LogStatement logStatement);
+    void create(LogStatement logStatement);
+    void delete(long id);
 }

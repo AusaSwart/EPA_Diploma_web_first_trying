@@ -1,16 +1,16 @@
 package com.epa.epadiplom.DAO.Dao;
 
 import com.epa.epadiplom.entities.JobEmployee;
+import com.epa.epadiplom.entities.JobTitle;
 
 import java.util.List;
 
 public interface JobEmployeeDAO {
-    public List<JobEmployee> findByIdEmp (long id_employee);
-    public JobEmployee findComplicatedReqFJ(long id_employee);
-    public JobEmployee findById(long id_employee);
-    public List<JobEmployee> findAll();
-    public JobEmployee update(JobEmployee dto);
-    public JobEmployee create(JobEmployee dto);
-    public void deleteByEntitie(JobEmployee dto);
-    public void delete(long id);
+    List<JobEmployee> findByIdEmp (long id_employee);
+    List<JobTitle> findComplicatedReqFJ(long id_employee);
+    JobEmployee findById(long id_employee);
+    List<JobEmployee> findAll();
+    void update(JobEmployee jobEmployee);
+    void create(JobEmployee jobEmployee);
+    void delete(long id);
 }

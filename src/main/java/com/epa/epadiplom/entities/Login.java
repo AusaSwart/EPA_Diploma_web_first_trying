@@ -8,7 +8,6 @@ public class Login {
     public long getId() {
         return id_main_info_login;
     }
-
     public void setId(long id_main_info_login) {
         this.id_main_info_login = id_main_info_login;
     }
@@ -21,14 +20,13 @@ public class Login {
         this.password_user = password_user;
     }
 
-
-    @Override
-    public String toString() {
-        final StringBuilder sb = new StringBuilder("login{");
-        sb.append("id_main_info_login=").append(id_main_info_login);
-        sb.append(", login_user='").append(login_user).append('\'');
-        sb.append(", password_user='").append(password_user).append('\'');
-        sb.append('}');
-        return sb.toString();
-    }
+//    @Override
+//    public String toString() {
+//        final StringBuilder sb = new StringBuilder("login{");
+//        sb.append("id_main_info_login=").append(id_main_info_login);
+//        sb.append(", login_user='").append(login_user).append('\'');
+//        sb.append(", password_user='").append(password_user).append('\'');
+//        sb.append('}');
+//        return sb.toString();
+//    }
 }

@@ -12,7 +12,6 @@ public class MainInfo {
     private Date entry_d;
 
     public long getId() { return id_main_info; }
-
     public void setId(long id_main_info) { this.id_main_info = id_main_info; }
     public String getFirstName() { return first_name;}
     public void setFirstName(String first_name) { this.first_name = first_name; }
@@ -26,17 +25,16 @@ public class MainInfo {
     public void setBirthD(Date birth_d) { this.birth_d = birth_d; }
     public Date getEntryD() { return entry_d; }
     public void setEntryD(Date entry_d) { this.entry_d = entry_d; }
-
-    @Override
-    public String toString() {
-        final StringBuilder sb = new StringBuilder("___Main Info \n");
-        sb.append("\n ").append(first_name);
-        sb.append(" ").append(middle_name);
-        sb.append(" ").append(last_name);
-        sb.append("\n Cabinet and office: ").append(cabinet_office);
-        sb.append("\n Birth day: '").append(birth_d).append('\'');
-        sb.append("\n Entry day: '").append(entry_d).append('\'');
-        sb.append("\n");
-        return sb.toString();
-    }
+//    @Override
+//    public String toString() {
+//        final StringBuilder sb = new StringBuilder("___Main Info \n");
+//        sb.append("\n ").append(first_name);
+//        sb.append(" ").append(middle_name);
+//        sb.append(" ").append(last_name);
+//        sb.append("\n Cabinet and office: ").append(cabinet_office);
+//        sb.append("\n Birth day: '").append(birth_d).append('\'');
+//        sb.append("\n Entry day: '").append(entry_d).append('\'');
+//        sb.append("\n");
+//        return sb.toString();
+//    }
 }

@@ -1,14 +1,13 @@
 package com.epa.epadiplom.DAO.Dao;
 
-import com.epa.epadiplom.entities.Contact;
 import com.epa.epadiplom.entities.Task;
 import java.util.List;
 
 public interface TaskDAO {
-    public Task findMaxIdTask(Task task);
-    public Task findById(long id);
-    public List<Task> findAll();
-    public Task update(Task dto);
-    public Task create(Task dto);
-    public void delete(long id);
+    Task findMaxIdTask(Task task);
+    Task findById(long id);
+    List<Task> findAll();
+    void update(Task task);
+    void create(Task task);
+    void delete(long id);
 }

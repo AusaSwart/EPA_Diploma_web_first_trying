@@ -1,18 +1,12 @@
 package com.epa.epadiplom.entities;
 
-import java.util.List;
-
 public class NoticeEvent {
     private long id_recipient;
     private long id_event;
     private long id_employee;
-    private List<Event> events;
-    private List<NoticeEvent> noticeEvents;
-
     public long getId() {
         return id_recipient;
     }
-
     public void setId(long id_recipient) {
         this.id_recipient = id_recipient;
     }
@@ -26,18 +20,14 @@ public class NoticeEvent {
     public void setIdEmployee(long id_employee) {
         this.id_employee = id_employee;
     }
-    public List<Event> getEvents (){ return events; }
-    public void setEvents(List<Event> events){ this.events = events;}
-    public List<NoticeEvent> getNoticeEvents (){ return noticeEvents; }
-    public void setNoticeEvents(List<NoticeEvent> noticeEvents){ this.noticeEvents = noticeEvents;}
 
-    @Override
-    public String toString() {
-        final StringBuilder sb = new StringBuilder("___Notice of event !!!___ \n");
-        sb.append(" Recipient: №").append(id_recipient);
-        sb.append(", event: №").append(id_event);
-        sb.append(", from employee: №").append(id_employee);
-        return sb.toString();
-    }
+//    @Override
+//    public String toString() {
+//        final StringBuilder sb = new StringBuilder("___Notice of event !!!___ \n");
+//        sb.append(" Recipient: №").append(id_recipient);
+//        sb.append(", event: №").append(id_event);
+//        sb.append(", from employee: №").append(id_employee);
+//        return sb.toString();
+//    }
 
 }

@@ -5,11 +5,11 @@ import com.epa.epadiplom.entities.NoticeEvent;
 import java.util.List;
 
 public interface NoticeEventDAO {
-    public NoticeEvent findComplicatedReqFE(long id);
-    public List<NoticeEvent> findByIdList(long id);
-    public NoticeEvent findById(long id);
-    public List<NoticeEvent> findAll();
-    public NoticeEvent update(NoticeEvent dto);
-    public NoticeEvent create(NoticeEvent dto);
-    public void delete(long id);
+    List<NoticeEvent> findComplicatedReqFE(long id);
+    List<NoticeEvent> findByIdList(long id);
+    NoticeEvent findById(long id);
+    List<NoticeEvent> findAll();
+    void update(NoticeEvent noticeEvent);
+    void create(NoticeEvent noticeEvent);
+    void delete(long id);
 }

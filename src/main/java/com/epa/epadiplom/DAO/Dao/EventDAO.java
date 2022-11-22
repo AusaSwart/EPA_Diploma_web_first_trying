@@ -4,10 +4,10 @@ import com.epa.epadiplom.entities.Event;
 import java.util.List;
 
 public interface EventDAO {
-    public Event findMaxId(Event event);
-    public Event findById(long id);
-    public List<Event> findAll();
-    public Event update(Event dto);
-    public Event create(Event dto);
-    public void delete(long id);
+    Event findMaxId(Event event);
+    Event findById(long id);
+    List<Event> findAll();
+    void update(Event event);
+    void create(Event event);
+    void delete(long id);
 }

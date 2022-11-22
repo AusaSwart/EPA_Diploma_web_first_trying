@@ -5,10 +5,9 @@ import com.epa.epadiplom.entities.MainInfo;
 import java.util.List;
 
 public interface MainInfoDAO {
-    public MainInfo findById(long id);
-    public List<MainInfo> findAllInList();
-    public List<MainInfo> findAll();
-    public MainInfo update(MainInfo dto);
-    public MainInfo create(MainInfo dto);
-    public void delete(long id);
+    MainInfo findById(long id);
+    List<MainInfo> findAll();
+    void update(MainInfo mainInfo);
+    void create(MainInfo mainInfo);
+    void delete(long id);
 }

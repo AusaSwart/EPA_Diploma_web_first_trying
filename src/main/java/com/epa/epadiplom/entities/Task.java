@@ -6,7 +6,6 @@ public class Task {
     private long id;
     private Date date_task;
     private String name_of_task;
-    public Task(){}
     public long getId() {
         return id;
     }
@@ -26,14 +25,14 @@ public class Task {
         this.name_of_task = name_of_task;
     }
 
-    @Override
-    public String toString() {
-        final StringBuilder sb = new StringBuilder(" ");
-        sb.append("№ ").append(id);
-        sb.append("   Date of task: '").append(date_task).append('\'');
-        sb.append("\n   Name of task: '").append(name_of_task).append('\'');
-        sb.append("\n");
-        return sb.toString();
-    }
+//    @Override
+//    public String toString() {
+//        final StringBuilder sb = new StringBuilder(" ");
+//        sb.append("№ ").append(id);
+//        sb.append("   Date of task: '").append(date_task).append('\'');
+//        sb.append("\n   Name of task: '").append(name_of_task).append('\'');
+//        sb.append("\n");
+//        return sb.toString();
+//    }
 
 }

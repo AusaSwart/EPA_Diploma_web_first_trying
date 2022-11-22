@@ -1,7 +1,6 @@
 package com.epa.epadiplom.entities;
 
 import java.util.Date;
-import java.util.List;
 
 public class LogStatement {
     private long id;
@@ -13,9 +12,6 @@ public class LogStatement {
     private int approve;
     private Date date_leave;
     private Date date_of_ls;
-    private List<Document> documents;
-    private List<LogStatement> logStatements;
-    private List<Long> approves;
 
     public long getId() {
         return id;
@@ -80,30 +76,24 @@ public class LogStatement {
     public void setDateOfLs(Date date_of_ls) {
         this.date_of_ls = date_of_ls;
     }
-    public List<Document> getDocuments (){ return documents; }
-    public void setDocuments(List<Document> documents){ this.documents = documents;}
-    public List<LogStatement> getLogStatements (){ return logStatements; }
-    public void setLogStatements(List<LogStatement> logStatements){ this.logStatements = logStatements;}
-    public List<Long> getApproves (){ return approves; }
-    public void setApproves(List<Long> approves){ this.approves = approves;}
 
-    @Override
-    public String toString() {
-        final StringBuilder sb = new StringBuilder("|___Statement___ ");
-        sb.append("№ ").append(id);
-        sb.append("\n To approver №").append(id_approver);
-        sb.append(" from employee № ").append(id_employee);
-        sb.append("\n Comment '").append(comment_ls).append('\'');
-        sb.append("\n Sum of days: ").append(days_sum);
-        sb.append(" type of leave: ");
-        if (type_leave == 1){ System.out.println("Sick leave"); }
-        else if (type_leave == 2){ System.out.println("Vacation"); }
-        else if (type_leave == 3){ System.out.println("At own expense"); }
-        else if (type_leave == 4){ System.out.println("Dismissal"); }
-        else if (type_leave == 5){ System.out.println("Else"); }
-        sb.append("\n Approve status ").append(approve);
-        sb.append("\n Date of leave: '").append(date_leave).append('\'');
-        sb.append("\n Date of ls: '").append(date_of_ls).append('\'');
-        return sb.toString();
-    }
+//    @Override
+//    public String toString() {
+//        final StringBuilder sb = new StringBuilder("|___Statement___ ");
+//        sb.append("№ ").append(id);
+//        sb.append("\n To approver №").append(id_approver);
+//        sb.append(" from employee № ").append(id_employee);
+//        sb.append("\n Comment '").append(comment_ls).append('\'');
+//        sb.append("\n Sum of days: ").append(days_sum);
+//        sb.append(" type of leave: ");
+//        if (type_leave == 1){ System.out.println("Sick leave"); }
+//        else if (type_leave == 2){ System.out.println("Vacation"); }
+//        else if (type_leave == 3){ System.out.println("At own expense"); }
+//        else if (type_leave == 4){ System.out.println("Dismissal"); }
+//        else if (type_leave == 5){ System.out.println("Else"); }
+//        sb.append("\n Approve status ").append(approve);
+//        sb.append("\n Date of leave: '").append(date_leave).append('\'');
+//        sb.append("\n Date of ls: '").append(date_of_ls).append('\'');
+//        return sb.toString();
+//    }
 }

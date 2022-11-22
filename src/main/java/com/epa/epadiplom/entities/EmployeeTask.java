@@ -1,14 +1,10 @@
 package com.epa.epadiplom.entities;
 
-import java.util.List;
-
 public class EmployeeTask {
     private long id_executor;
     private long id_employee;
     private long id_task;
     private String comment_te;
-    private List<Task> tasks;
-    private List<EmployeeTask> employeeTasks;
     public long getId() {
         return id_executor;
     }
@@ -33,17 +29,13 @@ public class EmployeeTask {
     public void setCommentTE(String comment_te) {
         this.comment_te = comment_te;
     }
-    public List<Task> getTasks (){ return tasks; }
-    public void setTasks(List<Task> tasks){ this.tasks = tasks;}
-    public List<EmployeeTask> getEmployeeTasks (){ return employeeTasks; }
-    public void setEmployeeTasks(List<EmployeeTask> employeeTasks){ this.employeeTasks = employeeTasks;}
-    @Override
-    public String toString() {
-        final StringBuilder sb = new StringBuilder("Notice : \n");
-        sb.append(" id of executor: ").append(id_executor);
-        sb.append(", id of employee: ").append(id_employee);
-        sb.append(", id of task: ").append(id_task);
-        sb.append(",\n   comment for task: \"").append(comment_te).append('\"');
-        return sb.toString();
-    }
+//    @Override
+//    public String toString() {
+//        final StringBuilder sb = new StringBuilder("Notice : \n");
+//        sb.append(" id of executor: ").append(id_executor);
+//        sb.append(", id of employee: ").append(id_employee);
+//        sb.append(", id of task: ").append(id_task);
+//        sb.append(",\n   comment for task: \"").append(comment_te).append('\"');
+//        return sb.toString();
+//    }
 }
