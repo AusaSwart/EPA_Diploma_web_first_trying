@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>Job titles</title>
@@ -11,13 +11,14 @@
         <th>Id</th>
         <th>Name of title</th>
     </tr>
-    <#list job_title as job_title>
+    <#list list_of_job_titles as job_title>
         <tr>
-            <td><a href="/job_title/${job_title.id}">${job_title.id}</a></td>
+            <td>${job_title.id}</td>
             <td>${job_title.job_title_name}</td>
         </tr>
     </#list>
-    <a href="http://localhost:8080/"> Go back </a>
 </table>
+<br>
+<a href="http://localhost:8080/"> Go back </a>
 </body>
 </html>
