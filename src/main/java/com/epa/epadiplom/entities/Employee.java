@@ -5,6 +5,10 @@ public class Employee {
     private long id;
     private int privilege;
     private long id_dep;
+
+    public Employee() {
+    }
+
     public long getId() {
         return id;
     }
@@ -22,6 +26,15 @@ public class Employee {
     }
     public void setIdDep(long id_dep) {
         this.id_dep = id_dep;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee {" +
+                "id = " + id +
+                ", privilege = " + privilege +
+                ", id_dep = " + id_dep +
+                '}';
     }
 
 //    @Override

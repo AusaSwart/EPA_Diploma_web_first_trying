@@ -11,6 +11,9 @@ public class MainInfo {
     private Date birth_d;
     private Date entry_d;
 
+    public MainInfo() {
+    }
+
     public long getId() { return id_main_info; }
     public void setId(long id_main_info) { this.id_main_info = id_main_info; }
     public String getFirstName() { return first_name;}
@@ -25,6 +28,19 @@ public class MainInfo {
     public void setBirthD(Date birth_d) { this.birth_d = birth_d; }
     public Date getEntryD() { return entry_d; }
     public void setEntryD(Date entry_d) { this.entry_d = entry_d; }
+
+    @Override
+    public String toString() {
+        return "MainInfo {" +
+                "id_main_info = " + id_main_info +
+                ", first_name = '" + first_name + '\'' +
+                ", middle_name = '" + middle_name + '\'' +
+                ", last_name = '" + last_name + '\'' +
+                ", cabinet_office = '" + cabinet_office + '\'' +
+                ", birth_d = " + birth_d +
+                ", entry_d = " + entry_d +
+                '}';
+    }
 //    @Override
 //    public String toString() {
 //        final StringBuilder sb = new StringBuilder("___Main Info \n");

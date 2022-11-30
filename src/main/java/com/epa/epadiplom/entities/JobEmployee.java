@@ -1,33 +1,39 @@
 package com.epa.epadiplom.entities;
 
-import java.util.List;
-
 public class JobEmployee {
     private long id_employee;
     private long id_job_title;
     private long id;
 
+    public JobEmployee() {
+    }
+
     public long getId() {
         return id;
     }
-
     public void setId(long id) {
         this.id = id;
     }
     public long getIdEmployee() {
         return id_employee;
     }
-
     public void setIdEmployee(long id_employee) {
         this.id_employee = id_employee;
     }
-
     public long getIdJobTitle() {
         return id_job_title;
     }
-
     public void setIdJobTitle(long id_job_title) {
         this.id_job_title = id_job_title;
+    }
+
+    @Override
+    public String toString() {
+        return "JobEmployee {" +
+                "id_employee = " + id_employee +
+                ", id_job_title = " + id_job_title +
+                ", id = " + id +
+                '}';
     }
 
 //    @Override

@@ -6,6 +6,10 @@ public class Task {
     private long id;
     private Date date_task;
     private String name_of_task;
+
+    public Task() {
+    }
+
     public long getId() {
         return id;
     }
@@ -23,6 +27,15 @@ public class Task {
     }
     public void setNameOfTask(String name_of_task) {
         this.name_of_task = name_of_task;
+    }
+
+    @Override
+    public String toString() {
+        return "Task {" +
+                "id = " + id +
+                ", date_task = " + date_task +
+                ", name_of_task = '" + name_of_task + '\'' +
+                '}';
     }
 
 //    @Override

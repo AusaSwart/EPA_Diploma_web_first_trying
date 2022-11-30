@@ -10,22 +10,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ac86bbc-6aff-4636-b151-18021b1b7cdb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/epadiplom.iml" beforeDir="false" afterPath="$PROJECT_DIR$/epadiplom.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/DaoImpl/JobTitleDAOimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/DAO/DaoImpl/JobTitleDAOimpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/config/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/config/WebAppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/config/WebAppInitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/Document.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/Document.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/EmployeeTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/EmployeeTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/JobEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/JobEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/JobTitle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/JobTitle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/LogStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/LogStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/MainInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/MainInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/NoticeEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/NoticeEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/entities/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epa/epadiplom/service/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/listOfJjobTitles.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/listOfJjobTitles.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epa/epadiplom/DAO/DaoImpl/JobTitleDAOimpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epa/epadiplom/DAO/DaoImpl/JobTitleDAOimpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/epa/epadiplom/config/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epa/epadiplom/config/SpringConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/epa/epadiplom/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epa/epadiplom/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epa/epadiplom/entities/JobTitle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epa/epadiplom/entities/JobTitle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epa/epadiplom/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epa/epadiplom/service/UserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT/WEB-INF/classes/com/epa/epadiplom/DAO/DaoImpl/JobTitleDAOimpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT/WEB-INF/classes/com/epa/epadiplom/DAO/DaoImpl/JobTitleDAOimpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT/WEB-INF/classes/com/epa/epadiplom/config/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT/WEB-INF/classes/com/epa/epadiplom/config/SpringConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT/WEB-INF/classes/com/epa/epadiplom/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT/WEB-INF/classes/com/epa/epadiplom/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT/WEB-INF/classes/com/epa/epadiplom/entities/JobTitle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT/WEB-INF/classes/com/epa/epadiplom/entities/JobTitle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT/WEB-INF/classes/com/epa/epadiplom/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT/WEB-INF/classes/com/epa/epadiplom/service/UserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT/WEB-INF/views/listOfJjobTitles.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT/WEB-INF/views/listOfJjobTitles.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/epadiplom-0.0.1-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,27 +97,27 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Program Files/Apache Software Foundation/Tomcat 9.0",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Facets",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "spring.configuration.checksum": "db2e9fc1ea640224622f4145251c97ff"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/Apache Software Foundation/Tomcat 9.0&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;db2e9fc1ea640224622f4145251c97ff&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Intel_Idea\epadiplom\src\main\java\com\epa\jdbc" />
@@ -263,6 +281,11 @@
       <workItem from="1669184059186" duration="13373000" />
       <workItem from="1669203334936" duration="5853000" />
       <workItem from="1669271412604" duration="13302000" />
+      <workItem from="1669293506378" duration="768000" />
+      <workItem from="1669357751063" duration="11382000" />
+      <workItem from="1669620216062" duration="1857000" />
+      <workItem from="1669795078808" duration="2145000" />
+      <workItem from="1669802240603" duration="872000" />
     </task>
     <servers />
   </component>
@@ -279,6 +302,22 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/epa/epadiplom/controller/UserController.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="this" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

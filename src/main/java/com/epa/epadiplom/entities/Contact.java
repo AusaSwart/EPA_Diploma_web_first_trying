@@ -6,6 +6,10 @@ public class Contact {
     private long work_number;
     private long personal_number;
     private String mail;
+
+    public Contact() {
+    }
+
     public long getId() {
         return id_main_info_contact;
     }
@@ -27,6 +31,17 @@ public class Contact {
     public String getMail() {return mail;}
     public void setMail(String mail) {
         this.mail = mail;
+    }
+
+    @Override
+    public String toString() {
+        return "Contact {" +
+                "id_main_info_contact = " + id_main_info_contact +
+                ", location_street = '" + location_street + '\'' +
+                ", work_number = " + work_number +
+                ", personal_number = " + personal_number +
+                ", mail = '" + mail + '\'' +
+                '}';
     }
 //    @Override
 //    public String toString() {

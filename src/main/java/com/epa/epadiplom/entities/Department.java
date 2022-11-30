@@ -3,6 +3,10 @@ package com.epa.epadiplom.entities;
 public class Department {
     private long id;
     private String name_dep;
+
+    public Department() {
+    }
+
     public long getId() {
         return id;
     }
@@ -16,6 +20,13 @@ public class Department {
         this.name_dep = firstName;
     }
 
+    @Override
+    public String toString() {
+        return "Department {" +
+                "id = " + id +
+                ", name_dep = '" + name_dep + '\'' +
+                '}';
+    }
 //    @Override
 //    public String toString() {
 //        final StringBuilder sb = new StringBuilder(" id");

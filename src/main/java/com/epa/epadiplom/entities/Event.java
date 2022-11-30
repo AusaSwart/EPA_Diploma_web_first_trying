@@ -8,6 +8,9 @@ public class Event {
     private String comment_fe;
     private Date date_of_event;
 
+    public Event() {
+    }
+
     public long getId() {
         return id;
     }
@@ -26,14 +29,24 @@ public class Event {
     public void setDateOfEvent(Date date_of_event) {
         this.date_of_event = date_of_event;
     }
+
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("|_Event__");
-        sb.append(" № ").append(id);
-        sb.append("_|\n Type of event: '").append(type_of_event).append('\'');
-        sb.append("\n Comment: '").append(comment_fe).append('\'');
-        sb.append("\n Date of event: ").append(date_of_event);
-        sb.append("\n");
-        return sb.toString();
+        return "Event {" +
+                "id = " + id +
+                ", type_of_event = '" + type_of_event + '\'' +
+                ", comment_fe = '" + comment_fe + '\'' +
+                ", date_of_event = " + date_of_event +
+                '}';
     }
+    //    @Override
+//    public String toString() {
+//        final StringBuilder sb = new StringBuilder("|_Event__");
+//        sb.append(" № ").append(id);
+//        sb.append("_|\n Type of event: '").append(type_of_event).append('\'');
+//        sb.append("\n Comment: '").append(comment_fe).append('\'');
+//        sb.append("\n Date of event: ").append(date_of_event);
+//        sb.append("\n");
+//        return sb.toString();
+//    }
 }

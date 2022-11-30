@@ -5,6 +5,10 @@ public class EmployeeTask {
     private long id_employee;
     private long id_task;
     private String comment_te;
+
+    public EmployeeTask() {
+    }
+
     public long getId() {
         return id_executor;
     }
@@ -28,6 +32,16 @@ public class EmployeeTask {
     }
     public void setCommentTE(String comment_te) {
         this.comment_te = comment_te;
+    }
+
+    @Override
+    public String toString() {
+        return "EmployeeTask {" +
+                "id_executor = " + id_executor +
+                ", id_employee = " + id_employee +
+                ", id_task = " + id_task +
+                ", comment_te = '" + comment_te + '\'' +
+                '}';
     }
 //    @Override
 //    public String toString() {

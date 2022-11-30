@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Job titles</title>
@@ -14,7 +14,7 @@
     <#list list_of_job_titles as job_title>
         <tr>
             <td>${job_title.id}</td>
-            <td>${.data_model["job_title.job_title_name"]}</td>
+            <td>${job_title.job_title_name}</td>
         </tr>
     </#list>
 </table>

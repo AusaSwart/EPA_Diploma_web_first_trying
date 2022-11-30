@@ -31,7 +31,10 @@ public class UserController {
     @GetMapping("/list_of_job_titles")
     public String listOfJobTitles(Model model){
         model.addAttribute("list_of_job_titles", userService.findAll());
+        System.out.println(userService.findAll());
         return "listOfJjobTitles";
     }
+
+
 
 }

@@ -4,6 +4,10 @@ public class NoticeEvent {
     private long id_recipient;
     private long id_event;
     private long id_employee;
+
+    public NoticeEvent() {
+    }
+
     public long getId() {
         return id_recipient;
     }
@@ -19,6 +23,15 @@ public class NoticeEvent {
     }
     public void setIdEmployee(long id_employee) {
         this.id_employee = id_employee;
+    }
+
+    @Override
+    public String toString() {
+        return "NoticeEvent {" +
+                "id_recipient = " + id_recipient +
+                ", id_event = " + id_event +
+                ", id_employee = " + id_employee +
+                '}';
     }
 
 //    @Override

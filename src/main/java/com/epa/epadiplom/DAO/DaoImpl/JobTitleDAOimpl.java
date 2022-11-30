@@ -13,12 +13,11 @@ import java.util.List;
 public class JobTitleDAOimpl implements JobTitleDAO {
 
     public final JdbcTemplate jdbcTemplate;
-
     private static final String GET_ONE = "SELECT id, job_title_name FROM job_title WHERE id=?";
     private static final String DELETE = "DELETE FROM job_title WHERE id = ?";
     private static final String UPDATE = "UPDATE job_title SET job_title_name = ?  WHERE id = ?";
     private static final String INSERT = "INSERT INTO job_title (job_title_name) VALUES (?)";
-    private static final String GET_NAMES = "SELECT job_title_name, id FROM public.job_title " +
+    private static final String GET_NAMES = "SELECT id, job_title_name FROM job_title " +
             "ORDER BY id";
 
     public JobTitleDAOimpl(JdbcTemplate jdbcTemplate) {

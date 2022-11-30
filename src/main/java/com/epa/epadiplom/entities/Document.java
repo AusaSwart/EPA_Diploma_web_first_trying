@@ -4,6 +4,10 @@ public class Document {
     private long id;
     private long id_ls;
     private String body_doc;
+
+    public Document() {
+    }
+
     public long getId() {
         return id;
     }
@@ -19,6 +23,15 @@ public class Document {
     public String getBodyDoc() {return body_doc;}
     public void setBodyDoc(String body_doc) {
         this.body_doc = body_doc;
+    }
+
+    @Override
+    public String toString() {
+        return "Document {" +
+                "id = " + id +
+                ", id_ls = " + id_ls +
+                ", body_doc = '" + body_doc + '\'' +
+                '}';
     }
 //    @Override
 //    public String toString() {

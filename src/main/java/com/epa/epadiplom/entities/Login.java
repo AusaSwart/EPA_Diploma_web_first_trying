@@ -5,6 +5,9 @@ public class Login {
     private String login_user;
     private String password_user;
 
+    public Login() {
+    }
+
     public long getId() {
         return id_main_info_login;
     }
@@ -18,6 +21,15 @@ public class Login {
     public String getPasswordUser() {return password_user;}
     public void setPasswordUser(String password_user) {
         this.password_user = password_user;
+    }
+
+    @Override
+    public String toString() {
+        return "Login {" +
+                "id_main_info_login = " + id_main_info_login +
+                ", login_user = '" + login_user + '\'' +
+                ", password_user = '" + password_user + '\'' +
+                '}';
     }
 
 //    @Override
